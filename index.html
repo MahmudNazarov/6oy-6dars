@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <div class="header__wrapper">
+                    <img src="./images/internet.svg" alt="">
+                    <button class="language">O'zb</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+  
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__info">
+                        <a href="./index.html">
+                            <img src="./images/logo.png" alt="">
+                        </a>
+                        <p class="hero__exit">
+                            Offerta imzolash
+                            <img src="./images/chiqish.svg" alt="">
+                        </p>
+                    </div>
+                    <h2 class="title">
+                        Spacega xush kelibsiz
+                    </h2>
+                    <form class="formSpace">
+                        <div class="form__wrapper">
+                            <button type="submit" class="pupil">O’quvchiman</button>
+                            <button type="submit" class="pupil otaOna">Ota-onaman</button>
+                        </div>
+                        <input class="input login" type="text" placeholder="Modme Id or Phone number">
+                        <button type="submit"></button>
+                        <div class="form__info" >
+                            <input class="parol"  type="password" placeholder="Password">
+                            <button type="button" class="koz"></button>
+                        </div>
+                        <p class="error-msg" style="color: red; display: none;">Login yoki parol xato!</p>
+                    </form>
+                    <button class="qrCode">QR code orqali kirish</button>
+                    <button type="submit" class="submit">Подвердить</button>
+                </div>
+            </div>
+        
+        </section>
+
+        <section id="profile__style">
+          <div class="profile hidden">
+            <div class="UTF-8">
+              <button id="chikish__button">chikish</button>
+            </div>
+          <div class="name__and__group">
+            <h3 id="name"></h3>
+            <p class="group">Коды | F2-1943 | Sunnatbek Yusupov | 15:10</p>
+          </div>
+            <div class="stats">
+              <div class="coin">
+                <img class="img" src="./images/Coin.8a6f0644.svg" alt=".">
+                <span id="coin"></span>
+              </div>
+              <div class="energy">
+                <img class="img0" src="./images/Без названия.png" alt=".">
+                <span id="energy"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+
+    
+
+    <script src="./dbJson.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
